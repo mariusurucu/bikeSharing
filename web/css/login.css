@@ -1,0 +1,14 @@
+.form-hld {
+    display: table-caption;
+    padding-left: 30px;
+    padding-right:30px;
+    margin: 0 auto !important;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 45% !important;
+}
+
+.form-hld input {
+    width:250px !important;
+}
+

@@ -1,0 +1,11 @@
+{
+    "elements": {
+        "div": {}
+    },
+    "attributes": {
+        "once": {
+            "context": "section"
+        },
+        "class": {}
+    }
+}

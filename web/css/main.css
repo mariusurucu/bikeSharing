@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 15, 2018, 3:23:34 PM
+    Author     : Ciller
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+*{
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+#page{
+border : 1px solid black;
+height: 842px;
+width : 595px;
+margin : 0 auto ;
+box-shadow: 5px 5px 5px #888;
+}
+
+#imageCircle{
+
+	border:6px solid white;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	margin: 20px auto;
+	background-image: url(https://image.flaticon.com/icons/png/512/149/149071.png);
+	background-size: 150px 150px;
+}
+
+
+#imageCircle:hover{
+	border:6px solid #6d695c;
+}
+
+#sidebar{
+	position: absolute;
+	height : 842px;
+	width: 224px;
+	float : left;
+	background-color: #6d695c;
+	background-image:
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size: 70px 120px;
+}
+#nameDetails{
+	margin: -10px auto;
+}
+#name{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color : white;
+	line-height: 50px;	
+	font-size: 50px;
+}
+#profile{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color : white;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+#contact{
+position: relative;
+top:35px;
+margin: auto 20px;
+width: 220px;
+height: 100px;
+font-family: 'Raleway', sans-serif;
+}
+/*
+#contact .phone{
+margin: 10px auto;
+
+}*/
+
+#contact .phone span:nth-child(1){
+} 
+#contact .phone span:nth-child(2){
+margin: auto 15px;
+} 
+#contact .email span:nth-child(1){
+} 
+#contact .email span:nth-child(2){
+margin: auto 15px;
+} 
+
+#profileOverview{
+	text-align: center;
+	margin:15px auto;
+	width: 220px;
+	height: 200px;
+	color: white;
+	font-size: 25px;
+}
+#profileOverview span:nth-child(2){
+	margin: auto 20px;
+}
+#profileOverview p{
+	margin: 10px 20px;
+	text-align: left;
+	font-size: 16px;
+}
+#skillSet{
+	text-align: center;
+	margin:15px auto;
+	width: 220px;
+	height: 200px;
+	color: white;
+	font-size: 25px;
+}
+#skillSet span:nth-child(2){
+	margin: auto 20px;
+}
+
+#skillSet ul{
+margin: 15px auto;
+line-height: 20px;
+font-size: 16px;
+text-align: left;
+list-style: none;	
+}
+
+#mbody{
+	height: 842px;
+	width: 367px;
+	float:right;
+	position: relative;
+}
+
+.education{
+	position: relative;
+	margin : 10px 20px;
+	font-size: 30px;
+	width: 350px;
+}
+
+.education .title{
+	width: 350px;
+
+}
+.education span:nth-child(2){
+	margin: auto 15px;
+}
+
+.education .timeline{
+	position: relative;
+	margin:5px 5px;	
+}
+
+.education .timeline .line{
+	position: absolute;
+	height: 210px;
+	border-left: 3px solid #6d695c;;
+	margin : auto 10px;	
+}
+
+.education .eduDetails{
+	position: absolute;
+	margin: auto 40px;
+	float: left;
+	height: 230px;
+	width: 250px;
+
+}
+.education .timeline .eduDetails .eduTitle{
+	margin: 10px auto;
+	font-size:14px;
+}
+
+.eduTitle ul{
+	list-style: none;	
+	margin: auto -30px;
+}
+.eduTitle .circle{
+	position: absolute;
+	margin: auto -38px;
+	background-color: white;	
+	height: 20px;
+	width: 20px;
+	border:3px solid black;
+	border-radius: 50%;
+}
+
+.eduTitle li:nth-child(1) span{
+	font-weight: bold;
+}
+
+.eduTitle li:nth-child(2) span{
+	color:#6d695c;
+	font-weight: bold;
+}
+.BE li:nth-child(3) span{
+	font-weight: bold;
+}
+
+.experience{
+	margin: 250px 20px;
+}
+.experience .timeline .line{
+	height: 70px;
+}
+
+.certifications{
+	margin : -160px 20px;
+}
+.certifications .timeline .line{
+	height: 120px;
+}
+.links{
+	margin: 300px 20px;
+}
+.links .timeline .line{
+	height: 140px;
+}
+
+.eduTitle:hover .circle{
+
+background-color: black;
+
+}
